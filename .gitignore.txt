@@ -19,3 +19,7 @@ obj/
 
 # Entity Framework Migrations
 Migrations/
+
+# Add these to your .gitignore
+appsettings.json
+appsettings.Development.json
