@@ -1,0 +1,20 @@
+# Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.sln.ide
+*.db
+*.bak
+*.log
+
+# Entity Framework Migrations
+Migrations/
