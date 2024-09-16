@@ -1,0 +1,6 @@
+{
+  "ShoppingCart.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Assessment\\ShoppingCart\\ShoppingCart.Common",
+  "ShoppingCart.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Assessment\\ShoppingCart\\ShoppingCart.Entity",
+  "ShoppingCart.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Assessment\\ShoppingCart\\ShoppingCart.Infrastructure",
+  "ShoppingCart.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Assessment\\ShoppingCart\\ShoppingCart.Service"
+}
