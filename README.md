@@ -32,28 +32,18 @@ This is the backend API for the shopping cart application, built using .NET Core
    dotnet restore
    ```
 
-3. **Create `appsettings.json`**:
-   In the `ShoppingCart.API` folder, create an `appsettings.json` file with your specific settings, such as database connection string and JWT configuration. Example:
-
-   ```json
-   {
-     "ConnectionStrings": {
-       "DefaultConnection": "your_connection_string_here"
-     },
-     "Jwt": {
-       "Key": "your_jwt_key_here",
-       "Issuer": "your_jwt_issuer_here"
-     }
-   }
-   ```
-
-4. **Run Database Migrations**:
+3. **Run Database Migrations**:
    Apply migrations to create the database and seed it with data:
    ```bash
+   dotnet ef migrations add InitialCreate
    dotnet ef database update
+
+   or if you are executing commands through package manager console
+   Add-Migration InitialCreate -Project ShoppingCart.Infrastructure -StartupProject ShoppingCart.API
+   Update-Database -Project ShoppingCart.Infrastructure -StartupProject ShoppingCart.API
    ```
 
-5. **Run the Application**:
+4. **Run the Application**:
    To start the backend application, use the command:
    ```bash
    dotnet run
@@ -65,12 +55,16 @@ The application will create a default admin user for login upon seeding:
 
 - **Username**: `admin`
 - **Password**: `admin123`
+   OR
+- **Username**: `testuser`
+- **Password**: `test123`
+
 
 ### Swagger API Documentation
 
 Once the application is running, you can access the Swagger UI for detailed API documentation and testing:
 
-- [Swagger UI](https://localhost:5001/swagger)
+- [Swagger UI][(http://localhost:7109/swagger/index.html)]
 
 Swagger provides interactive documentation for the available API endpoints.
 
