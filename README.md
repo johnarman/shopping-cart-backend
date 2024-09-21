@@ -67,7 +67,7 @@ The application will create a default admin user for login upon seeding:
 
 Once the application is running, you can access the Swagger UI for detailed API documentation and testing:
 
-- [Swagger UI][(http://localhost:7109/swagger/index.html)]
+- [Swagger UI](http://localhost:7109/swagger/index.html)
 
 Swagger provides interactive documentation for the available API endpoints.
 
