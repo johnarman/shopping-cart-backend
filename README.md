@@ -39,6 +39,7 @@ This is the backend API for the shopping cart application, built using .NET Core
    dotnet ef database update
 
    or if you are executing commands through package manager console
+
    Add-Migration InitialCreate -Project ShoppingCart.Infrastructure -StartupProject ShoppingCart.API
    Update-Database -Project ShoppingCart.Infrastructure -StartupProject ShoppingCart.API
    ```
@@ -55,7 +56,9 @@ The application will create a default admin user for login upon seeding:
 
 - **Username**: `admin`
 - **Password**: `admin123`
+
    OR
+
 - **Username**: `testuser`
 - **Password**: `test123`
 
